@@ -5,12 +5,12 @@
 
 resources:
   repositories:
-  - repository: Sistema Taskit
+  - repository: Sistema Taskitt
     type: git
-    name: Projeto-Integracao-Cypress/Sistema Taskit
-    ref: main
+    name: Projeto-Integracao-Cypress/Sistema Taskitt
+    ref: master
     trigger:
-    - main
+    - master
 
 pool:
   vmImage: ubuntu-latest
