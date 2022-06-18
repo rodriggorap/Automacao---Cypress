@@ -1,16 +1,16 @@
 # Node.js
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/javascriptt
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 resources:
   repositories:
-  - repository: STG
+  - repository: Sistema Taskit
     type: git
-    name: Duplicatas de Transporte/STG
-    ref: master
+    name: Projeto-Integracao-Cypress/Sistema Taskit
+    ref: main
     trigger:
-    - master
+    - main
 
 pool:
   vmImage: ubuntu-latest
